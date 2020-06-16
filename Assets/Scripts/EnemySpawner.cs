@@ -19,13 +19,7 @@ public class EnemySpawner : MonoBehaviour
 
     }
 
-    private void SpawnAttacker()
-    {
+    private void SpawnAttacker() {
         Instantiate(attackerPrefab,transform.position, transform.rotation);
-    }
-
-    void Update()
-    {
-        
     }
 }

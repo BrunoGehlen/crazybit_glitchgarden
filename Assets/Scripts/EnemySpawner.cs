@@ -16,7 +16,6 @@ public class EnemySpawner : MonoBehaviour
             yield return new WaitForSeconds(UnityEngine.Random.Range(minSpawnDelay, maxSpawnDelay));
             SpawnAttacker();
         }
-
     }
 
     private void SpawnAttacker() {

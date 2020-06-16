@@ -9,7 +9,6 @@ public class Shooter : MonoBehaviour
 
     public void Fire(float damage) {
         Instantiate(projectile, gun.transform.position, transform.rotation);
-
         return;
     }
 }

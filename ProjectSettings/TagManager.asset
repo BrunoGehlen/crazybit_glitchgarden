@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: UIBackGround
+    uniqueID: 263778925
+    locked: 0
+  - name: UIButtons
+    uniqueID: 3688877129
+    locked: 0

@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject defenderPrefab;
-    [SerializeField] GameObject projectilePrefab;
-
-    public void Shoot() {
-        Instantiate(projectilePrefab, transform.position, transform.rotation);
+    [SerializeField] GameObject defender;
+    private void OnMouseDown()
+    {
+        SpawnDefender();
+    }
+    private void SpawnDefender()
+    {
+        GameObject newDefender = 
+            Instantiate(
+                defender, 
+                transform.position, 
+                Quaternion.identity);
     }
 }

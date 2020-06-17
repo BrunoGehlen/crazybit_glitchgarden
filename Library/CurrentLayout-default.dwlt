@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 518
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -98,10 +98,10 @@ MonoBehaviour:
     y: 0
     width: 932
     height: 518
-  m_MinSize: {x: 678, y: 221}
-  m_MaxSize: {x: 12003, y: 4021}
+  m_MinSize: {x: 679, y: 221}
+  m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 120
+  controlID: 146
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 518
     width: 932
     height: 413
-  m_MinSize: {x: 331, y: 271}
-  m_MaxSize: {x: 14001, y: 10021}
+  m_MinSize: {x: 332, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
   controlID: 20
 --- !u!114 &8
@@ -245,10 +245,10 @@ MonoBehaviour:
     y: 30
     width: 932
     height: 931
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 144
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,10 +291,10 @@ MonoBehaviour:
     y: 0
     width: 932
     height: 931
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 119
+  controlID: 145
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,8 +314,8 @@ MonoBehaviour:
     y: 0
     width: 447
     height: 518
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1186
+  m_LastSelectedObjectID: -4910
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -523,8 +523,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: d2ecffff
+      m_LastClickedID: -4910
       m_ExpandedIDs: 60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -586,7 +586,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 296
+  m_LastVerticalScrollValue: 44
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -626,20 +626,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/VFX
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/VFX
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Glitch Garden\source\Repos\gg_remote\crazybit_glitchgarden
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d24e0000
-    m_LastClickedID: 20178
-    m_ExpandedIDs: 00000000ee370000f0370000f237000000ca9a3b
+    m_SelectedIDs: f6370000
+    m_LastClickedID: 14326
+    m_ExpandedIDs: 00000000e837000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee370000f0370000f2370000
+    m_ExpandedIDs: 00000000e8370000ea370000ec370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -695,18 +695,18 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: f0350000ee360000c03500002e3900001c39000020390000e035000000000000e036000010370000603400006a43000092340000
+    m_ExpandedInstanceIDs: f0350000ee360000c03500002e3900001c39000020390000e035000000000000e036000010370000603400006a430000923400000c380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: VFX
-      m_OriginalName: VFX
+      m_Name: DefenderSpawner
+      m_OriginalName: DefenderSpawner
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 20178
+      m_UserData: 11902
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
       y: 21
       width: 445
       height: 476
-    m_Scale: {x: 0.23177083, y: 0.23177083}
+    m_Scale: {x: 0.23177083, y: 0.23177081}
     m_Translation: {x: 222.5, y: 238}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -851,9 +851,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.6901581, y: 1.8840392, z: -15.061523}
+    m_Target: {x: 3.0661798, y: 0.4072373, z: -22.309698}
     speed: 2
-    m_Value: {x: 2.6901581, y: 1.8840392, z: -15.061523}
+    m_Value: {x: 3.0661798, y: 0.4072373, z: -22.309698}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -903,9 +903,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.66996
+    m_Target: 4.815766
     speed: 2
-    m_Value: 4.66996
+    m_Value: 4.815766
   m_Ortho:
     m_Target: 1
     speed: 2

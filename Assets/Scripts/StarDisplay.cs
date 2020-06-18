@@ -15,7 +15,10 @@ public class StarDisplay : MonoBehaviour
 
     private void UpdateDisplay()
     {
-        starText.text = stars.ToString();
+        if (starText)
+        {
+            starText.text = stars.ToString();
+        }
     }
 
     public void AddStar(int amount)

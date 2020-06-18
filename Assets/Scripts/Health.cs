@@ -9,14 +9,17 @@ public class Health : MonoBehaviour
 
     public void DealDamage(float damage) {
         health -= damage;
+
         if (health <= 0) {
             TriggerDeathVFX();
             Destroy(gameObject);
         }
     }
+
     private void TriggerDeathVFX()
     {
         if (!deathVFX) { return; }
+
         GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(deathVFXObject, 3f);
     }

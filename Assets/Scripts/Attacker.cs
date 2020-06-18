@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
-    [Range (0f, 5f)] 
+    
     [SerializeField] float currentSpeed = 1f;
+    
     void Update() {
-        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
+        WalkLeftDirection();
     }
+
     public void SetMovementSpeed(float newSpeed) {
         currentSpeed = newSpeed;
+    }
+
+    private void WalkLeftDirection() {
+        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
     }
 }

@@ -33,6 +33,6 @@ public class StarDisplay : MonoBehaviour
         {
             stars -= amount;
             UpdateDisplay();
-        }
+        }        
     }
 }
